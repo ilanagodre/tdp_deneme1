@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "customer@example.com",
+      "password": "password123",
+      "firstName": "Ahmet",
+      "lastName": "Yılmaz",
+      "role": "CUSTOMER",
+      "company": "ABC Şirketi"
+    },
+    {
+      "id": 2,
+      "email": "expert@example.com",
+      "password": "password123",
+      "firstName": "Ayşe",
+      "lastName": "Demir",
+      "role": "EXPERT",
+      "expertise": ["Yazılım", "Veri Bilimi"]
+    },
+    {
+      "id": 3,
+      "email": "customer2@example.com",
+      "password": "password123",
+      "firstName": "Mehmet",
+      "lastName": "Kaya",
+      "role": "CUSTOMER",
+      "company": "XYZ Holding",
+      "createdAt": "2024-02-18T11:40:00.000Z",
+      "updatedAt": "2024-04-05T09:15:00.000Z"
+    },
+    {
+      "id": 4,
+      "email": "expert2@example.com",
+      "password": "password123",
+      "firstName": "Zeynep",
+      "lastName": "Şahin",
+      "role": "EXPERT",
+      "expertise": ["UI/UX Tasarım", "Mobil Uygulama Geliştirme"],
+      "hourlyRate": 120,
+      "rating": 4.5,
+      "createdAt": "2024-01-25T13:10:00.000Z",
+      "updatedAt": "2024-04-12T10:20:00.000Z"
+    }
+  ]
+} 
